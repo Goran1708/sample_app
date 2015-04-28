@@ -4,7 +4,7 @@ Rails.application.routes.draw do
   get  'static_pages/help'
   get  'static_pages/about'
   
-  #resources :static_pages
+  resources :static_pages
   
   #match '/help' => 'pages#help', via: [:get]
   #match '/about' => 'pages#about', via: [:get]
